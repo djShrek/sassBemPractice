@@ -215,7 +215,7 @@ h1 {
   color: #525559; }
 
 h2 {
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 1.5em;
   color: #999da1; }
@@ -260,5 +260,26 @@ h2 {
     height: 3px;
     background: #999da1;
     top: 4px; }
+
+.nav {
+  margin-top: 1.25em;
+  margin-bottom: 1.875em; }
+  .nav__item a {
+    color: #797e83; }
+
+.nav__item, .nav__item--current {
+  display: inline-block;
+  margin: 0 0.75em; }
+
+.nav__item a, .nav__item--current a {
+  font-size: 1.125em;
+  font-weight: 300;
+  display: block;
+  padding: 0.5em;
+  border-bottom: 1px solid transparent; }
+
+.nav__item a:hover, .nav__item--current a {
+  color: #0b0b0b;
+  border-color: #52bab3; }
 
 /*# sourceMappingURL=application.css.map */
